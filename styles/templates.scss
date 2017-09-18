@@ -1,0 +1,17 @@
+%top {
+	height: 100vh !important;
+	font-family: 'Noto-Sans', sans-serif !important;
+}
+
+	%flex {
+		display: flex;
+    	flex-direction: column;
+	}
+
+	%mflex {
+		flex: 1 0 auto;
+	}
+
+	.hide-me {
+   		display: none;
+   	}

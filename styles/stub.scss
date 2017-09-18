@@ -1,0 +1,21 @@
+@import 'templates';
+
+html, body, .container {
+	@extend %top;
+	margin: 0;
+	padding: 0;
+}
+
+	.container {
+		.col {
+			display: table;
+			margin: 0 auto;
+			height: 100%;
+				
+			& > div {
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}
+	}
+

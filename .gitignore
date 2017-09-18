@@ -1,0 +1,8 @@
+styles/*.css
+materialize
+img
+config
+documentation
+build
+node_modules
+.*

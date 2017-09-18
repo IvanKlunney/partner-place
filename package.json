@@ -1,0 +1,27 @@
+{
+  "name": "partner-place",
+  "version": "0.1.0",
+  "description": "WebApp for partners",
+  "main": "index.php",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com//IvanKlunney/partner-place"
+  },
+  "author": "IvanKlunney",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "phantomjs": "^2.1.7",
+    "pump": "^1.0.2"
+  },
+  "dependencies": {
+    "materialize-css": "file:materialize"
+  }
+}

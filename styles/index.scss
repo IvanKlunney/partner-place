@@ -1,0 +1,56 @@
+@import 'templates';
+
+$image: "../img/01-min.png";
+
+html {
+	@extend %top;
+}
+	body {
+		@extend html, %flex;
+	    background-image: url($image);
+	}
+
+		main {
+			@extend %mflex;
+			transition-timing-function: linear;
+   			transition-duration: 2s;
+   			transition-property: opacity;
+   			opacity: 0;
+		}
+	
+		p {
+			margin: 0 !important;
+		}
+
+		label {
+			width: auto !important;
+		}
+
+		button {
+			width: 60%;
+			text-align: right;
+		}
+
+
+	  	.preloader-wrapper {
+	  		width: 18px !important;
+	  		height: 18px !important;
+	  		display: inline-block;
+	  		position: relative;
+			right: 10px;
+			top: -28px;	
+	  	}
+
+	  	.input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label {
+	     	color: #FFF;
+	   	}
+
+		.input-field {
+			label {
+				line-height: .8 !important;
+			}
+		}
+
+		noscript {
+			color: #FF;
+		}
